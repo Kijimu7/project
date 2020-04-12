@@ -11,6 +11,7 @@ int main() {
     vector<double> userInput(5);
     
     //user input
+    //changed it
     for (vector<double>::size_type i = 0; i < 5; i++)
     {
         cout << "Enter weight " << i + 1 << ":" << flush << "\n";
@@ -30,6 +31,7 @@ int main() {
     cout << "Total weight: " << sum  << "\n";
     cout << "Average weight: " << sum / 5 << "\n";
     cout << "Max weight: " << *max_element(userInput.begin(), userInput.end()) << "\n";
+    cout << "End program";
         return 0;
 
 }
